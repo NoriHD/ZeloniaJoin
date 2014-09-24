@@ -1,0 +1,9 @@
+name: ZeloniaJoin
+main: Main.Main
+version: 1.0
+author: NoriHD
+commands:
+  starttut:
+    usage: /starttut
+    description: Startet das Anfaenger Tutorial
+    permission: zelonia.starttut
