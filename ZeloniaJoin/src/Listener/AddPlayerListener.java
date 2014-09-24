@@ -14,7 +14,8 @@ import Main.Main;
 
 public class AddPlayerListener implements Listener{
 	
-	File pregi = new File("plugins/ZeloniaJoin","PlayerRegi");
+	//PlayerRegi.yml wird erstellt
+	File pregi = new File("plugins/ZeloniaJoin","PlayerRegi.yml");
 	public FileConfiguration pregicfg = YamlConfiguration.loadConfiguration(pregi);
 	
 	private Main plugin;
@@ -30,6 +31,7 @@ public class AddPlayerListener implements Listener{
 		if(p.isOp()){
 			pregicfg.set(pname, pname);
 			
+			//PlayerRegi.yml wird gespeichert
 			try {
 				pregicfg.save(pregi);
 			} catch (IOException e1) {

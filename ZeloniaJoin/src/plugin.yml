@@ -3,7 +3,7 @@ main: Main.Main
 version: 1.0
 author: NoriHD
 commands:
-  starttut:
-    usage: /starttut
-    description: Startet das Anfaenger Tutorial
-    permission: zelonia.starttut
+  addtele:
+    usage: /addtele
+    description: Setzt ein Tele Point
+    permission: zelonia.teletut
