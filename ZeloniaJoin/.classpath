@@ -3,7 +3,11 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="/ZeloniaMain"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Dennis/Desktop/Projekte/Sonstiges/Bukkit/craftbukkit-1.7.9-R0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Dennis/Desktop/Projekte/Sonstiges/Bukkit/bukkit-1.7.9-R0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dennis/Desktop/BukkitPlugins/bukkit-1.7.9-R0.1-20140418.155157-4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jd.bukkit.org/rb/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Dennis/Desktop/BukkitPlugins/TestServer/craftbukkit.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
