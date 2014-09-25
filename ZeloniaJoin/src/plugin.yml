@@ -7,3 +7,7 @@ commands:
     usage: /addtele
     description: Setzt ein Tele Point
     permission: zelonia.teletut
+  deltele:
+    usage: /deltele
+    description: Loescht den zuletzt gesetzten Point.
+    permission: zelonia.deltele

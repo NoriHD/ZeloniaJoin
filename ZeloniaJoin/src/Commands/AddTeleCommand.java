@@ -33,7 +33,7 @@ public class AddTeleCommand implements CommandExecutor{
 		if(cmd.getName().equalsIgnoreCase("addtele")){
 			if(p.hasPermission("zelonia.addtele") && p.isOp()){
 				if(!teletutcfg.isSet(number1 + "." + p.getWorld() + "Location.World")){
-					if(args.length == 0){
+					if(args.length == 1){
 						
 						String world = p.getWorld().getName();
 						double x = p.getLocation().getX();
