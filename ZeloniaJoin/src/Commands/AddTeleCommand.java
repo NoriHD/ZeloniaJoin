@@ -36,6 +36,7 @@ public class AddTeleCommand implements CommandExecutor{
 					if(args.length == 1){
 						
 						String world = p.getWorld().getName();
+						String number = "Number:";
 						double x = p.getLocation().getX();
 						double y = p.getLocation().getY();
 						double z = p.getLocation().getZ();
@@ -44,7 +45,7 @@ public class AddTeleCommand implements CommandExecutor{
 						
 						int number2 = teletutcfg.getInt(world, number1);
 						
-						teletutcfg.set(world, number2);
+						teletutcfg.set(number, number2);
 						teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.world", world);
 						teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.x", Double.valueOf(x));
 						teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.y", Double.valueOf(y));

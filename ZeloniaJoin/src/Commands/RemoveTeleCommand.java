@@ -36,6 +36,7 @@ public class RemoveTeleCommand implements CommandExecutor{
 				if(args.length == 0){
 					
 					String world = p.getWorld().getName();
+					String number = "Number:";
 					int number1 = 1;
 					
 					try {
@@ -54,7 +55,7 @@ public class RemoveTeleCommand implements CommandExecutor{
 					int number2 = teletutcfg.getInt(world, number1);
 					number2--;
 					
-					teletutcfg.set(world, number2);
+					teletutcfg.set(number, number2);
 					teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.world", null);
 					teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.x", null);
 					teletutcfg.set(number2 + "." + p.getWorld() + "." + "Location.y", null);
